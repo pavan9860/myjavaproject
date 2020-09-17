@@ -6,13 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Program Files/selenium/libs/byte-buddy-1.8.15.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/selenium/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/selenium/libs/guava-25.0-jre.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/selenium/libs/okhttp-3.11.0.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/selenium/libs/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/selenium/client-combined-3.141.59.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/selenium/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/selenium/junit/hamcrest-core-1.3-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/selenium/junit/hamcrest-core-1.3-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/selenium/junit/junit-4.13.jar"/>

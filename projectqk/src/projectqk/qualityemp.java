@@ -2,7 +2,8 @@ package projectqk;
 
 import java.util.TreeMap;
 
-public class qualityemp {
+public class qualityemp 
+{
 	
 	static String a;
 	
@@ -32,7 +33,7 @@ public class qualityemp {
 				
 	}
 	
-	void newpolicy(Integer s)
+	void newpolicy(Integer s) 
 	{
 		TreeMap<Integer,String> policy = new TreeMap<Integer,String>();
 		
@@ -55,7 +56,7 @@ public class qualityemp {
 	
 	
 	
-	public static void main(String[] args) throws Exception
+	public static void main(String[] args) throws Exception 
 	
 	{
 		
@@ -65,9 +66,10 @@ public class qualityemp {
 		
 		new insurancecmp("ghansham");
 		f.policy(20,45000,40);
-		f.newpolicy(4);
+		f.newpolicy(2);
+		f.
 		
-		new calage();
+		 new calage(20);
 	
 		
 		

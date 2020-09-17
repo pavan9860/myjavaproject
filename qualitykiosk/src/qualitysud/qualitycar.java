@@ -1,33 +1,22 @@
 package qualitysud;
 
-import org.openqa.selenium.WebDriver;
 
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class qualitycar {
 	
-	private static WebDriver driver;
-
-	public static WebDriver getDriver() {
-		return driver;
-	}
-
-	public static void setDriver(WebDriver driver) {
-		qualitycar.driver = driver;
-	}
-
-	public static void main (String args[])
+	public static void main (String args[]) throws Exception
 	{
-	    System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Mozilla Firefox\\gekodriver\\geckodriver.exe");
+	
+		
+	    System.setProperty("webdriver.edge.driver","C:\\Program Files\\selenium\\microsoftedge\\MicrosoftWebDriver.exe");
 	    
-	    setDriver(new FirefoxDriver());
+	    WebDriver driver = new EdgeDriver();
 	    
-	    driver.get("https://www.wikipedia.org/");
 	    
-	    	
-	   
-	   
-	    
+	    driver.get("https://www.wikipedia.org/");   
+		
 	    
 	}
 }
